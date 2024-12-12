@@ -45,11 +45,11 @@ body {
   display: flex;
 }
 .todo-list__tasks {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 .todo-list__completed-title {
-  list-style:none;
+  list-style: none;
 }
 .todo-list_delete{
 
@@ -58,7 +58,7 @@ body {
 .tasks-add__input,
 .todo-list__input,
 .todo-list__checkbox{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -146,16 +146,16 @@ body {
 
 /* Edit Task */
 .todo-list__input {
-  display:none
+  display: none
 }
 
 .todo-list__active-tasks_edit-mode .todo-list__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo-list__active-tasks_edit-mode .todo-list__label {
-  display:none;
+  display: none;
 }
 .todo-list__completed-tasks {
   margin: 0;
