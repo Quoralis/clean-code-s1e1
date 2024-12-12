@@ -106,9 +106,6 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
-.todo-list__active-tasks > * {
-  vertical-align: middle;
-}
 
 .todo-list__checkbox {
   margin: 0 10px;
@@ -130,7 +127,7 @@ input#new-task {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.todo-list__completed-title .todo-list__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -140,11 +137,15 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editMode input[type=text] {
+.todo-list__active-tasks_edit-mode .todo-list__input {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+.todo-list__active-tasks_edit-mode .todo-list__label {
   display:none;
+}
+.todo-list__completed-tasks {
+  margin: 0;
+  padding: 0;
 }
