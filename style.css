@@ -4,42 +4,42 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header__container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header__container img {
   width: 100%;
 }
-.aaa .more_inf {
+.header__container .header__link_more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .header__container {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main__content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.tasks-add__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.tasks-add__input-wrapper {
   display: flex;
 }
-ul {
+.todo-list__tasks {
   margin:0;
   padding: 0;
 }
-li, h3 {
+.todo-list__tasks, h3 {
   list-style:none;
 }
 input,button{
