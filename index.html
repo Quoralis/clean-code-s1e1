@@ -50,34 +50,34 @@
               <input class="input todo-list__input" type="text">
               <button class="button todo-list__edit">Edit</button>
               <button class="button todo-list_delete">
-                <img src="./remove.svg">
+                <img class="todo-list__icon-delete" src="./remove.svg">
               </button>
-            </li>
+            </li  >
             <li class="todo-list__active-tasks  todo-list__active-tasks_edit-mode">
-              <input type="checkbox">
-              <label class="task">Go Shopping</label>
+              <input class="input todo-list__checkbox" type="checkbox">
+              <label class="todo-list__label">Go Shopping</label>
               <input
                 type="text"
                 value="go shopping"
-                class="task">
-              <button class="edit">Save</button>
-              <button class="delete">
-                <img src="./remove.svg">
+                class="input todo-list__input">
+              <button class="button todo-list__edit">Save</button>
+              <button class="button todo-list_delete">
+                <img class="todo-list__icon-delete" src="./remove.svg">
               </button>
             </li>
           </ul>
         </section>
 
         <section>
-          <h2>Completed</h2>
-          <ul id="completed-tasks">
-            <li>
-              <input type="checkbox" checked>
-              <label class="task">See the Doctor</label>
-              <input type="text" class="task">
-              <button class="edit">Edit</button>
-              <button class="delete">
-                <img src="./remove.svg">
+          <h2 class="todo-list__completed-title">Completed</h2>
+          <ul class="todo-list__completed-tasks">
+            <li class="todo-list__active-tasks" >
+              <input class="input todo-list__checkbox" type="checkbox" checked>
+              <label class=class="todo-list__label">See the Doctor</label>
+              <input type="text" class="input todo-list__input">
+              <button class="button todo-list__edit">Edit</button>
+              <button class="button todo-list_delete">
+                <img class="todo-list__icon-delete" src="./remove.svg">
               </button>
             </li>
           </ul>
