@@ -70,7 +70,7 @@ body {
   cursor: pointer;
 }
 .button:hover {
-    color: #3a3a3a;
+  color: #3a3a3a;
 }
 /* Heading */
 .todo-list__completed-title,
